@@ -66,7 +66,7 @@ function App() {
             setIndex(index + 1);
         } else {
             const mbtiType = calculateMBTIType(answers);
-            alert(`당싱의 MBTI 결과는 ${mbtiType}`);
+            alert(`당신의 MBTI 결과는 ${mbtiType}`);
             window.location.reload();
         }
     };
